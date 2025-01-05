@@ -4,15 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hockey's</title>
-    <link rel="shortcut icon" href="image/icons8-hockey-32.png" type="">
+    <link rel="shortcut icon" href="image/icons8-hockey-32.png" type="" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="lan">
+  <body class="px-12 mt-10">
     <!--header start-->
     <header>
-      <nav>
-        <h1>Hockey<span class="text-[#FF4240]">&apos;</span>s</h1>
+      <!--navbar start-->
+      <nav class="flex justify-between items-center">
+        <div class="text-[36px] font-bold">
+          <h1>Hockey<span class="text-[#FF4240]">&apos;</span>s</h1>
+        </div>
+        <div class="items-center text-[16px]">
+          <ul class="flex gap-8">
+            <li class="text-[#FF4240]"><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Pages</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-3">
+          <button class="py-3 px-4 rounded-lg">
+            <img src="image/icons8-search-30.png" alt="" />
+          </button>
+          <button
+            class="border-[2px] text-[20px] text-[#FFFFFF] rounded-lg bg-[#FF4240] px-4 py-3"
+          >
+            Get Ticket
+          </button>
+        </div>
       </nav>
+      <!--navbar end-->
+      <!--banner start-->
+      <section
+        class="bg-cover bg-center w-auto h-[550px rounded-2xl mt-10"
+        style="background-image: url(image/1.png)"
+      >
+        <div class=" h-[550px] flex justify-between items-end px-8 relative bottom-0 py-8">
+          <div class="gap-3">
+            <button>
+              <img src="image/icons8-back-arrow-64.png" alt="" />
+            </button>
+            <button>
+              <img src="image/icons8-forward-button-64.png" alt="" />
+            </button>
+          </div>
+          <div class="bg-black p-6 rounded-2xl">
+            <h3 class="text-white font-semibold text-[24px]">Meet all the heroes from the field</h3>
+            <p class="text-white opacity-60">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--banner end-->
     </header>
     <!--header end-->
   </body>
